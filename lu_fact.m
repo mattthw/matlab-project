@@ -1,7 +1,7 @@
 function[L,U,error] = lu_fact(A)
 
 %Rosetta Code and Yasin Shiboul's code was used in making this function
-%At http://rosettacode.org/wiki/LU_decomposition 
+%At http://rosettacode.org/wiki/LU_decomposition
 %and http://www.mathworks.com/matlabcentral/fileexchange/7779-
 %lu-factorization-by-doolittle-s-method/content/Doolittle.m
 
@@ -37,11 +37,11 @@ for i=2:n
     end
 end
 C=zeros(n);
-for i=1:n	
-	for j=1:n	
-			C(i,j)=C(i,j) + L(i,:) * U(:,j);   
-	end	
-end	
+for i=1:n
+	for j=1:n
+			C(i,j)=C(i,j) + L(i,:) * U(:,j);
+	end
+end
 errorMatrix = C - A;
 maxError = max(errorMatrix);
 minError = min(errorMatrix);
