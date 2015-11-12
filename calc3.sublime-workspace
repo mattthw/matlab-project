@@ -1,0 +1,1471 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"has",
+				"hasNext"
+			],
+			[
+				"backing",
+				"backingArray"
+			],
+			[
+				"num",
+				"numElements"
+			],
+			[
+				"list",
+				"listByYearRange"
+			],
+			[
+				"use",
+				"userWatchLists"
+			],
+			[
+				"new",
+				"newTemp"
+			],
+			[
+				"Bra",
+				"Brass"
+			],
+			[
+				"set",
+				"setIdentity"
+			],
+			[
+				"per",
+				"perform"
+			],
+			[
+				"get",
+				"getName"
+			],
+			[
+				"pu",
+				"purchase"
+			],
+			[
+				"Snare_",
+				"Snare_Drum"
+			],
+			[
+				"Ins",
+				"InsufficientFundsException"
+			],
+			[
+				"In",
+				"InsufficientFundsException"
+			],
+			[
+				"dupli",
+				"DuplicateInstrumentException"
+			],
+			[
+				"dup",
+				"DuplicateInstrumentException"
+			],
+			[
+				"getI",
+				"getIdentity"
+			],
+			[
+				"Ex",
+				"DuplicateInstrumentException"
+			],
+			[
+				"Mus",
+				"MusicStore"
+			],
+			[
+				"in",
+				"instrmnts"
+			],
+			[
+				"toggl",
+				"toggleCompletion"
+			],
+			[
+				"File",
+				"FileWriter"
+			],
+			[
+				"print",
+				"println"
+			],
+			[
+				"task",
+				"taskPriority"
+			],
+			[
+				"add",
+				"addTasks"
+			],
+			[
+				"sel",
+				"selection"
+			],
+			[
+				"tas",
+				"taskPriority"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"sle",
+				"selection"
+			],
+			[
+				"Tasks",
+				"Tasks"
+			],
+			[
+				"create",
+				"createTask"
+			],
+			[
+				"goal",
+				"goalNum"
+			],
+			[
+				"a",
+				"allTasks"
+			],
+			[
+				"Da",
+				"DateTimeFormatter"
+			],
+			[
+				"user",
+				"userMatch"
+			],
+			[
+				"Fi",
+				"FileNotFoundException"
+			],
+			[
+				"users",
+				"usersList"
+			],
+			[
+				"pa",
+				"password"
+			],
+			[
+				"su",
+				"subTasks"
+			],
+			[
+				"st",
+				"status"
+			],
+			[
+				"pri",
+				"priority"
+			],
+			[
+				"pr",
+				"priority"
+			],
+			[
+				"form",
+				"formatNum"
+			],
+			[
+				"grade",
+				"gradeIntervals"
+			],
+			[
+				"gr",
+				"gradeIntervals"
+			],
+			[
+				"grad",
+				"gradeIntervals"
+			],
+			[
+				"bucket",
+				"bucketSize"
+			],
+			[
+				"buck",
+				"bucketSize"
+			],
+			[
+				"str",
+				"String"
+			],
+			[
+				"bu",
+				"bufferedReader"
+			],
+			[
+				"p",
+				"p	print"
+			],
+			[
+				"temp",
+				"temp"
+			],
+			[
+				"throw",
+				"throws"
+			],
+			[
+				"first",
+				"firstTerm"
+			],
+			[
+				"diff",
+				"difference"
+			],
+			[
+				"ves",
+				"vestDate"
+			],
+			[
+				"ent",
+				"entries"
+			],
+			[
+				"bubble",
+				"bubbleICDeviation"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"quick",
+				"quickTimeAverage"
+			],
+			[
+				"bubbleIC",
+				"bubbleICAverage"
+			],
+			[
+				"bubb",
+				"bubbleTimeAverage"
+			],
+			[
+				"bubbletime",
+				"bubbleTimeAverage"
+			],
+			[
+				"Arr",
+				"ArrayList"
+			],
+			[
+				"instruc",
+				"instructionCounter"
+			],
+			[
+				"bub",
+				"bubbleSortTime"
+			],
+			[
+				"bubbl",
+				"bubbleSortIC"
+			],
+			[
+				"re",
+				"reset"
+			],
+			[
+				"ne",
+				"nextNode"
+			],
+			[
+				"is",
+				"isInList"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"int",
+				"IntSLLNode"
+			],
+			[
+				"find",
+				"findPerms"
+			],
+			[
+				"Int",
+				"IntSLLNode"
+			],
+			[
+				"tmp",
+				"tmp2"
+			],
+			[
+				"String",
+				"StringBuilder"
+			],
+			[
+				"Set",
+				"SetAlgebra"
+			],
+			[
+				"next",
+				"nextString"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"song",
+				"songList"
+			],
+			[
+				"v",
+				"values"
+			],
+			[
+				"track",
+				"trackVal"
+			],
+			[
+				"pl",
+				"playListTemp"
+			],
+			[
+				"playL",
+				"playListTemp"
+			],
+			[
+				"play",
+				"playListTemp"
+			],
+			[
+				"app",
+				"append"
+			],
+			[
+				"tr",
+				"tracks"
+			],
+			[
+				"playl",
+				"playListTemp"
+			],
+			[
+				"Play",
+				"playListTemp"
+			],
+			[
+				"tem",
+				"tempDict"
+			],
+			[
+				"another",
+				"anotherTemp"
+			],
+			[
+				"antoh",
+				"anotherTemp"
+			],
+			[
+				"e",
+				"execute"
+			],
+			[
+				"write",
+				"writeToFile"
+			],
+			[
+				"if",
+				"ifmain	if __name__ == '__main__'"
+			],
+			[
+				"remove",
+				"remove_text"
+			],
+			[
+				"C",
+				"ConfigParser"
+			],
+			[
+				"samp",
+				"samp_list"
+			],
+			[
+				"try",
+				"try	Try/Except"
+			],
+			[
+				"do",
+				"do_it"
+			],
+			[
+				"do_",
+				"do_print"
+			],
+			[
+				"_",
+				"__	__magic__"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"usr",
+				"usr_string"
+			],
+			[
+				"get_",
+				"get_new_string"
+			],
+			[
+				"raw_in",
+				"raw_input"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "script.m",
+			"settings":
+			{
+				"buffer_size": 132,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lu_fact.m",
+			"settings":
+			{
+				"buffer_size": 1006,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "solve_lu_b.m",
+			"settings":
+			{
+				"buffer_size": 1848,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "tra",
+		"selected_items":
+		[
+			[
+				"tra",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"space",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"wrap",
+				"Auto Wrap: Toggle"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"spac",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"spa",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"tr",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"waka",
+				"WakaTime: Open Dashboard"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"doc",
+				"DocBlockr: Reparse comment block"
+			],
+			[
+				"docB",
+				"DocBlockr: Decorate line comment"
+			],
+			[
+				"tim",
+				"WakaTime: Open Dashboard"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"linter settings",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"sublimelinter",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"spaces",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"alig",
+				"AlignTab: Live Preview Mode"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"toggle file",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"open ",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"settings",
+				"Preferences: Settings - User"
+			],
+			[
+				"lint",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"align",
+				"AlignTab: Live Preview Mode"
+			],
+			[
+				"al",
+				"AlignTab: Live Preview Mode"
+			],
+			[
+				"ali",
+				"AlignTab: Live Preview Mode"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"git diff",
+				"Git: Diff All Files"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"git",
+				"Git: Push"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"trail",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"new ",
+				"File: New File Relative to Current View"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add Selected Hunk"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"prefs",
+				"Preferences: Settings - User"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"p",
+				"Package Control: Install Package"
+			],
+			[
+				"tab",
+				"View: Toggle Tabs"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"run",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"Git:",
+				"Git: Commit history"
+			],
+			[
+				"git a",
+				"Set Syntax: Git Commit Message"
+			],
+			[
+				"theme",
+				"SublimeLinter: Choose Gutter Theme"
+			],
+			[
+				"linter ",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"repl run",
+				"SublimeREPL: Python - RUN current file"
+			],
+			[
+				"Snippet: if",
+				"Snippet: if-__name__"
+			],
+			[
+				"packa ins",
+				"Package Control: Install Package"
+			],
+			[
+				"packa in",
+				"Package Control: Install Package"
+			],
+			[
+				"packa ",
+				"Package Control: Remove Package"
+			],
+			[
+				"packa li",
+				"Package Control: List Packages"
+			],
+			[
+				"packa inst",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 462.0
+	},
+	"console":
+	{
+		"height": 227.0,
+		"history":
+		[
+			"prefs",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/matt/Documents/school/class/math2605/matlab-project"
+	],
+	"file_history":
+	[
+		"/home/matt/Documents/school/class/cs1331/test2-practice-ans/5b.java",
+		"/home/matt/Documents/school/class/cs1331/hw-netflix-master/src/main/java/Movie.java",
+		"/home/matt/Documents/school/class/cs1331/hw-netflix-master/src/main/java/MySet.java",
+		"/home/matt/Documents/school/class/cs1331/hw-netflix-master/src/main/java/Library.java",
+		"/home/matt/Documents/school/class/math2605/matlab-project/lu_fact.m",
+		"/home/matt/Documents/school/class/cs1331/hw-netflix-master/src/main/java/Netflix.java",
+		"/home/matt/Documents/school/class/cs1331/hw-netflix-master/src/main/java/netflix.txt",
+		"/home/matt/Documents/school/class/cs1331/hw-netflix-master/src/main/java/PopulateNetflix.java",
+		"/home/matt/Documents/school/class/cs1331/hw-netflix-master/src/main/java/MySetTester.java",
+		"/home/matt/.cache/.fr-4fN22V/hw-netflix-master/src/main/java/MySet.java",
+		"/home/matt/.cache/.fr-F7cAeY/hw-netflix-master/src/main/java/PopulateNetflix.java",
+		"/home/matt/.cache/.fr-PeC55Z/hw-netflix-master/src/main/java/PopulateNetflix.java",
+		"/home/matt/Downloads/Boat.java",
+		"/home/matt/Downloads/AdbeRdr11010_en_US.exe",
+		"/home/matt/Downloads/AdbeRdr11008_en_US.exe",
+		"/home/matt/Documents/school/class/cs1331/hw-instruments-master/src/main/java/Musician.java",
+		"/home/matt/Documents/school/class/cs1331/hw-instruments-master/src/main/java/MusicStore.java",
+		"/home/matt/Documents/school/class/cs1331/hw-instruments-master/index.md",
+		"/home/matt/Documents/school/class/cs1331/hw-instruments-master/src/main/java/Instrument.java",
+		"/home/matt/Documents/school/class/cs1331/hw-instruments-master/src/main/java/Flute.java",
+		"/home/matt/Documents/school/class/cs1331/hw-instruments-master/src/main/java/Violin.java",
+		"/home/matt/Documents/school/class/cs1331/hw-instruments-master/src/main/java/Trumpet.java",
+		"/home/matt/Documents/school/class/cs1331/hw-instruments-master/src/main/java/SnareDrum.java",
+		"/home/matt/Documents/school/class/cs1331/hw-instruments-master/src/main/java/Percussion.java",
+		"/home/matt/Documents/school/class/cs1331/hw-instruments-master/src/main/java/Stringed.java",
+		"/home/matt/Documents/school/class/cs1331/hw-instruments-master/src/main/java/Woodwind.java",
+		"/home/matt/Documents/school/class/cs1331/hw-instruments-master/src/main/java/Brass.java",
+		"/home/matt/Documents/school/class/cs1331/hw-instruments-master/src/main/java/InsufficientFundsException.java",
+		"/home/matt/Documents/school/class/cs1331/hw-instruments-master/src/main/java/MinimumInstrumentsException.java",
+		"/home/matt/Documents/school/class/cs1331/hw-instruments-master/src/main/java/DuplicateInstrumentException.java",
+		"/home/matt/Documents/school/class/cs1331/hw-instruments-master/src/main/java/NullInstrumentException.java",
+		"/home/matt/Documents/school/class/cs1331/hw-instruments-master/src/main/java/Snare_Drum.java",
+		"/home/matt/.config/sublime-text-3/Packages/FileHeader/FileHeader.py",
+		"/home/matt/.config/sublime-text-3/Packages/FileHeader/FileHeader.sublime-settings",
+		"/home/matt/.config/sublime-text-3/Packages/User/FileHeader.sublime-settings",
+		"/home/matt/Documents/coding/system-explorer/Main.java",
+		"/home/matt/Documents/coding/system-explorer/userInterface.java",
+		"/home/matt/Documents/coding/system-explorer/AstroObject.java",
+		"/home/matt/Documents/coding/system-explorer/Map.java",
+		"/home/matt/Documents/school/class/cs1331/hw-todo-list-master/src/main/java/FileIO.java",
+		"/home/matt/Documents/school/class/cs1331/hw-todo-list-master/src/main/java/tshields3.csv",
+		"/home/matt/Documents/school/class/cs1331/hw-todo-list-master/src/main/java/Users.java",
+		"/home/matt/Documents/school/class/cs1331/hw-todo-list-master/src/main/java/Tasks.java",
+		"/home/matt/Documents/school/class/cs1331/hw-todo-list-master/src/main/java/Goals.java",
+		"/home/matt/Documents/school/class/cs1331/hw-todo-list-master/index.md",
+		"/home/matt/Documents/school/class/cs1331/hw-todo-list-master/src/main/java/users.csv",
+		"/home/matt/Documents/school/class/cs1331/hw-todo-list-master/src/main/java/TodoList.java",
+		"/home/matt/Documents/school/class/cs1331/pq-pfunk-master/src/main/java/Pfunk.java",
+		"/media/matt/MATT 32GB/2GB backup/Schoolwork/APCS/us/mattmccoy/SquareDriver/Square.java",
+		"/media/matt/MATT 32GB/2GB backup/Backup/50.22.36.137 port 25588/world/level",
+		"/home/matt/Downloads/IxEATxCRAYONS.dat",
+		"/home/matt/Downloads/2013-09-29",
+		"/home/matt/Downloads/LibreOffice_5.0.2.2_Linux_x86-64_deb/readmes/README_en-US",
+		"/home/matt/Documents/school/class/cs1331/hw-todo-list-master/src/main/java/tshields3-backup.csv",
+		"/home/matt/Downloads/ssdspeed/SSDReadSpeedTester.exe",
+		"/home/matt/.cache/.fr-9mEWst/BinaryTree.java",
+		"/home/matt/Documents/school/class/cs1331/hw-todo-list-master/README.md",
+		"/home/matt/listfiles.txt",
+		"/home/matt/Documents/school/class/cs1331/hw-todo-list-master/src/main/java/gburdell.csv",
+		"/home/matt/Documents/school/class/cs1331/pq-songbase-master/src/main/java/Songbase.java",
+		"/home/matt/Documents/school/class/cs1331/pq-peoplebase/src/main/java/Peoplebase.java",
+		"/home/matt/Documents/school/class/cs1331/hw-histogram-master/GradeHistogram.java",
+		"/home/matt/Documents/school/class/cs1331/pq-arraystats-master/ArrayStats.java",
+		"/home/matt/Documents/school/class/cs1331/pq-arithmetic-sequence-master/src/main/java/ArithmeticSequence.java",
+		"/home/matt/Documents/school/class/cs1331/pq-peoplebase/src/main/java/PeopleBase.java",
+		"/home/matt/Documents/school/class/cs1331/pq-peoplebase/src/test/java/PeoplebaseTest.java",
+		"/home/matt/Downloads/Peoplebase (1).java",
+		"/home/matt/Downloads/Peoplebase.java",
+		"/home/matt/Documents/school/class/cs1331/pq-peoplebase/src/test/java/PersonTest.java",
+		"/home/matt/Documents/school/class/cs1331/pq-peoplebase-master/src/main/java/Person.java",
+		"/home/matt/Documents/school/class/cs1331/pq-peoplebase-master/src/main/java/Peoplebase.java",
+		"/home/matt/Documents/school/class/cs1331/hw0/NimblyBimbly.java",
+		"/home/matt/Documents/school/class/cs1331/pq-arithmetic-sequence-master/src/main/ArithmeticSequence.java",
+		"/home/matt/.ssh/id_rsa.pub",
+		"/home/matt/.ssh/id_rsa",
+		"/home/matt/Documents/school/class/cs1331/class-examp/GuessNumber.java",
+		"/home/matt/Documents/school/class/cs1331/class-examp/Expressions.java",
+		"/tmp/tempssh.txt",
+		"/home/matt/Documents/cs/gmaGetLibrary/newProject.py",
+		"/home/matt/Documents/school/class/cs1331/Values.java",
+		"/home/matt/my-phone/android-file-transfer-linux-master/README.md",
+		"/home/matt/.config/sublime-text-3/Settings/SideBarEnhancements.json",
+		"/home/matt/Documents/coding/gt-course-critique/config.php",
+		"/etc/apache2/sites-available/virt.bluecabod.com.conf",
+		"/etc/apache2/sites-available/virt.bluecabod.com",
+		"/home/matt/Documents/cs/c/1-13.c",
+		"/home/matt/Documents/cs/java/notepad/UserInterface.java",
+		"/home/matt/Documents/cs/java/notepad/Main.java",
+		"/home/matt/Documents/cs/java/notepad/FileOperations.java",
+		"/home/matt/Documents/cs/c/reminders/main.c",
+		"/home/matt/Documents/cs/c/reminders/interface.c",
+		"/home/matt/Documents/cs/c/reminders/backend.c",
+		"/home/matt/Documents/cs/gmaGetLibrary/gmusic-csv.py",
+		"/home/matt/Documents/cs/MeanFind/src/us/mattmccoy/meanmedianmode/LearnActivity.java",
+		"/home/matt/Documents/cs/MeanFind/src/us/mattmccoy/meanmedianmode/MainActivity.java",
+		"/home/matt/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/matt/Documents/cs/c/reminders/a.out",
+		"/home/matt/Documents/school/class/data-structures/assignments/project-6/TestDict.java",
+		"/home/matt/Documents/school/class/data-structures/assignments/project-6/TreeDictionary.java",
+		"/home/matt/Documents/school/class/data-structures/assignments/project-6/BinaryTree.java",
+		"/home/matt/ds/a/project-6/BinaryTree.java",
+		"/home/matt/Downloads/BinaryTree (1).java",
+		"/home/matt/ds/a/project-6/Dictionary.java",
+		"/home/matt/ds/a/project-6/Entry.java",
+		"/home/matt/ds/a/project-6/Node.java",
+		"/home/matt/ds/a/project-6/TestDict.java",
+		"/home/matt/ds/a/project-6/TreeDictionary.java",
+		"/home/matt/ds/a/project-6/project-6.sublime-project",
+		"/home/matt/ds/a/project-6/README.txt",
+		"/home/matt/Documents/School/Classes/data-structures/assignments/project-4/README.txt",
+		"/home/matt/Documents/School/Classes/data-structures/assignments/project-5/README.txt",
+		"/home/matt/ds/a/project-6/more/BinaryTree.java",
+		"/home/matt/ds/a/quinton/TestDict.java",
+		"/home/matt/ds/a/quinton/Node.java",
+		"/home/matt/ds/a/quinton/BinaryTree.java",
+		"/home/matt/ds/a/quinton/TreeDictionary.java",
+		"/home/matt/ds/a/quinton/Dictionary.java",
+		"/home/matt/ds/a/quinton/Entry.java",
+		"/home/matt/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/matt/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/matt/Documents/School/Classes/data-structures/assignments/project-5/InstrumentedSorter.java",
+		"/home/matt/Documents/School/Classes/data-structures/assignments/project-5/Timer.java",
+		"/home/matt/Documents/School/Classes/data-structures/assignments/project-5/ex.txt",
+		"/home/matt/Documents/School/Classes/data-structures/assignments/project-5/Comparator.java",
+		"/home/matt/Downloads/Comparator.java",
+		"/home/matt/Documents/School/Classes/data-structures/assignments/project-3/SetAlgebra.java",
+		"/home/matt/Documents/School/Classes/data-structures/assignments/project-3/LinkedList.java",
+		"/home/matt/Documents/School/Classes/data-structures/assignments/lab4/IntSLLList.java"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"print",
+			"add",
+			"addA",
+			"remove",
+			"e2",
+			"c.iterator()",
+			"remove",
+			"type",
+			"equals",
+			"lion",
+			"9.99",
+			"8.9",
+			"LOTR",
+			"Lord",
+			"lord",
+			"LOTR",
+			"lord",
+			"MySet",
+			"==",
+			"person",
+			"NullInstrumentException",
+			"version",
+			"last_",
+			"input.nextInt()",
+			"){",
+			"for(",
+			"if(",
+			"alphabet",
+			"\",\"",
+			"time",
+			"pause",
+			"wait",
+			"Redecorate house, Paint room | 8 | 2015-09-17T12:00 | true, Replace carpet | 3 | 2015-09-16T15:00 | false\nFinish HW, CS HW | 5 | 2015-09-16T15:00 | true, En",
+			"Redecorate house, Paint room | 8 | 2015-09-17T12:00 | true, Replace carpet | 3 | 2015-09-16T15:00 | false\nFinish HW, CS HW | 5 | 2015-09-16T15:00 | true, English HW | 6 | 2015-09-17T23:59 | true\n",
+			"getStatus",
+			"Redecorate house, Paint room | 10 | 2015-09-17T12:00 | true, Replace carpet | 3 | 2015-09-16T15:00 | true",
+			"Redecorate house, Paint room | 10 | 2015-09-17T12:00 | true, Replace carpet | 3 | 2015-09-16T15:00 | true\nFinish HW, CS HW | 5 | 2015-09-16T15:00 | true, English HW | 6 | 2015-09-17T23:59 | true",
+			"user",
+			"t.",
+			"t",
+			"local",
+			"create",
+			"Goal",
+			"children",
+			"Person",
+			"num",
+			"string",
+			"char ",
+			"find",
+			"root",
+			"que",
+			"LinkedList",
+			"key",
+			"Un",
+			"U",
+			"implemented",
+			"yet",
+			"not supported",
+			"simple",
+			"public entry",
+			"breathfirst",
+			"treenodedata",
+			"comparable",
+			"insert",
+			"comparable",
+			"findh",
+			"preorder",
+			"remove",
+			"class",
+			"(double)",
+			"lenR",
+			"len",
+			"rQuick",
+			"rQuickTimeAverage",
+			"rQuick",
+			"rQuickTimeAverage",
+			"rQuick",
+			"merge",
+			"Long",
+			"long",
+			"Long",
+			"long",
+			"Long",
+			"long",
+			"Long",
+			"long",
+			"Long",
+			"long",
+			"double",
+			"Double",
+			"selection",
+			"SELECTION",
+			"selection",
+			"SELECTION",
+			"selection",
+			"SELECTION",
+			"selection",
+			"insertion",
+			"size: \"+size+\" type: ",
+			"bubble",
+			"\n            long bubble",
+			"Integer",
+			"selection",
+			"SELECTION",
+			"selection",
+			"election",
+			"ELECTION",
+			"election",
+			"bubble",
+			"long",
+			"bubbleTime",
+			"bubbleICAverage",
+			"quicksortTime",
+			"quickSortTime",
+			"quicksortTime",
+			"quickSortTime",
+			"quicksortTime",
+			"quickSortTime",
+			"quicksortTime",
+			"quickSortIC",
+			"quicksortIC",
+			"i",
+			"high",
+			"low",
+			"IC",
+			"int[] x",
+			";{",
+			"abstract"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"HashSet",
+			") {",
+			"for (",
+			"if (",
+			"letterList",
+			"\", \"",
+			"subTasks",
+			"createSet"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "script.m",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 132,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								132,
+								132
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "objective-c++",
+							"buffer_scroll_name": "1b571bdb",
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								223,
+								11,
+								5,
+								13,
+								41,
+								48,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"spell_check": false,
+							"syntax": "Packages/Objective-C/Objective-C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "lu_fact.m",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1006,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								436,
+								436
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "objective-c++",
+							"buffer_scroll_name": "0a4d04c1",
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								223,
+								11,
+								5,
+								13,
+								42,
+								9,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"spell_check": false,
+							"syntax": "Packages/Matlab/Matlab.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "solve_lu_b.m",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1848,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								504,
+								504
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "objective-c++",
+							"buffer_scroll_name": "62bbc5dd",
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								223,
+								11,
+								5,
+								13,
+								16,
+								19,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"spell_check": false,
+							"syntax": "Packages/Matlab/Matlab.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 205.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 102.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 94.0
+	},
+	"pinned_build_system": "",
+	"project": "calc3.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"con",
+				"config.ini"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "che",
+		"selected_items":
+		[
+			[
+				"che",
+				"~/Documents/school/class/cs1331/hw-chess-master/chess.sublime-project"
+			],
+			[
+				"netf",
+				"~/Documents/school/class/cs1331/hw-netflix-master/hw-netflix.sublime-project"
+			],
+			[
+				"inst",
+				"~/Documents/school/class/cs1331/hw-instruments-master/instruments.sublime-project"
+			],
+			[
+				"hw",
+				"~/Documents/school/class/cs1331/hw-instruments-master/instruments.sublime-project"
+			],
+			[
+				"",
+				"~/Documents/school/class/cs1331/hw-todo-list-master/src/main/java/hw2.sublime-project"
+			],
+			[
+				"rem",
+				"~/Documents/cs/c/reminders/reminders.sublime-project"
+			],
+			[
+				"rem	",
+				"~/Documents/cs/c/reminders/reminders.sublime-workspace"
+			],
+			[
+				"4",
+				"~/Documents/School/Classes/data-structures/assignments/project-4/project-4.sublime-workspace"
+			],
+			[
+				"5",
+				"~/Documents/School/Classes/data-structures/assignments/project-5/project-5.sublime-workspace"
+			],
+			[
+				"6",
+				"~/ds/a/project-6/project-6.sublime-workspace"
+			],
+			[
+				"q",
+				"~/ds/a/quinton/quinton.sublime-project"
+			],
+			[
+				"11",
+				"~/ds/a/lab11-12/lab11-12.sublime-project"
+			],
+			[
+				"3",
+				"~/Documents/School/Classes/data-structures/assignments/project-3/project-3.sublime-project"
+			],
+			[
+				"1",
+				"~/Documents/School/Classes/data-structures/assignments/project-1/project-1.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 38.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"_",
+				"_return"
+			]
+		],
+		"width": 400.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 109.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,11 +1,11 @@
 function x = solve_lu_b(A,b)
 %Penn State's math website was used when creating this function
 %at https://www.math.psu.edu/shen_w/451/NoteWeb/SL/slides5.pdf
-n = length(b); 
+n = length(b);
 [L,U,~] = lu_fact(A);
 y = zeros(n,1);
 x = zeros(n,1);
-for k=1:n-1 
+for k=1:n-1
     for i=k+1:n
         ymult = L(i,k)/L(k,k);
         for j=k+1:n
@@ -14,7 +14,7 @@ for k=1:n-1
     b(i) = b(i)-ymult*b(k);
     end
 end
- 
+
 y(n) = b(n)/L(n,n);
 for i=n-1:-1:1
     sum = b(i);
@@ -24,7 +24,7 @@ for i=n-1:-1:1
     y(i) = sum/L(i,i);
 end
 
-for k=1:n-1 
+for k=1:n-1
     for i=k+1:n
         xmult = U(i,k)/U(k,k);
         for j=k+1:n
@@ -47,7 +47,7 @@ end
 function[L,U,error] = lu_fact(A)
 
 %Rosetta Code and Yasin Shiboul's code was used in making this function
-%At http://rosettacode.org/wiki/LU_decomposition 
+%At http://rosettacode.org/wiki/LU_decomposition
 %and http://www.mathworks.com/matlabcentral/fileexchange/7779-
 %lu-factorization-by-doolittle-s-method/content/Doolittle.m
 
@@ -83,11 +83,11 @@ for i=2:n
     end
 end
 C=zeros(n);
-for i=1:n	
-	for j=1:n	
-			C(i,j)=C(i,j) + L(i,:) * U(:,j);   
-	end	
-end	
+for i=1:n
+	for j=1:n
+			C(i,j)=C(i,j) + L(i,:) * U(:,j);
+	end
+end
 errorMatrix = C - A;
 maxError = max(errorMatrix);
 minError = min(errorMatrix);
