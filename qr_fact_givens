@@ -1,4 +1,8 @@
 function [Q,R,error] = qr_fact_givens(A)
+
+%A website was used to help make this function
+%at http://polytopes.net/courses/Stat624S08/tutorial4.pdf
+
   n = length(A);
   Q = eye(n);
   R = A;
