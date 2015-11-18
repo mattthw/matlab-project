@@ -24,6 +24,6 @@ for i=1:n
 	end	
 end	
 errorMatrix = C - A;
-maxError = max(errorMatrix);
-minError = min(errorMatrix);
+maxError = max(max(errorMatrix));
+minError = min(min(errorMatrix));
 error = max(abs(maxError),abs(minError));
