@@ -1,0 +1,21 @@
+(f) Answer the following questions in the associated written component for this part of
+the project:
+
+(i) Why is it justified to use the LU or QR−factorizations as opposed of calculating
+an inverse martix?
+
+Answer: A system of linear equations can be solved using LU or QR factorizations, or using matrix inverses. 
+However, matrix inversion is numerically unstable which results in error amplification and loss of precision. 
+Additionally, using an inverse matrix will also lead to a loss in efficiency compared to using LU or QR factorizaion.
+
+(ii) What is the benefit of using LU or QR−factorizations in this way? (Your answer
+should consider the benefit in terms of conditioning error.)
+
+Answer: Using LU or QR factorization to solve a linear system of equations is both more efficient, more accurate, and
+more precise. In terms of efficiency, solving a matrix inverse is essentially solving another set of 
+linear equations. Additionally you will have to mutiply the inverse by the vector b in 
+order to get a solution. The efficiency of solving a system of linear equations with the inverse matrix gets worse as
+the size of the system increases, which is why using LU or QR factorization to solve a system of linear equations is 
+more efficient. Since matrix inversion is also numerically unstable, using an inverse matrix to solve a system of linear 
+equations will be less precise and accurate compared to using LU or QR factorization. This is due to the error amplification
+when calculating the inverse and mutiplying the inverse with b to find x.
