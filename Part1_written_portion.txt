@@ -11,7 +11,7 @@ Additionally, using an inverse matrix will also lead to a loss in efficiency com
 (ii) What is the benefit of using LU or QR−factorizations in this way? (Your answer
 should consider the benefit in terms of conditioning error.)
 
-Answer: Using LU or QR factorization to solve a linear system of equations is both more efficient, more accurate, and
+Answer: Using LU or QR factorization to solve a linear system of equations is more efficient, more accurate, and
 more precise. In terms of efficiency, solving a matrix inverse is essentially solving another set of 
 linear equations. Additionally you will have to mutiply the inverse by the vector b in 
 order to get a solution. The efficiency of solving a system of linear equations with the inverse matrix gets worse as
