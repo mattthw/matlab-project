@@ -1,7 +1,7 @@
 (d)
 n=2:  x = [3/2,-½], LU error = 0, House error =1.66e-15, givens error=4.44e-16, Px-b error=0
 
-n=3:  x = [11/6,-7/6,⅓], LU error = 0; House error = 2.66e-15, givens error = 1.77e-15, Px-b error      = 5.55e-17
+n=3:  x = [11/6,-7/6,⅓], LU error = 0; House error = 2.66e-15, givens error = 1.77e-15, Px-b error = 5.55e-17
 
 n=4: x = [2.083,-1.192,1.083,-.25], LU error=0, House error=1.77e-14,givens error=5.33e-15, Px-b error = 1.77e-15
 
