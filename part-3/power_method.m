@@ -8,35 +8,32 @@
 % s: positive integer N giving the maximum number of times to
 %      iterate the power method before quitting.
 % e_value
-function [e_value, e_vector] = power_method(A,e_vector,t,s)
+function [e_value, e_vector, count] = power_method(A,e_vector,t,s)
     disp('Starting power_method');
     e_value = 0;
-    % n = length(e_vector);
     prev_u = e_vector;
     prev_val = e_value;
     count = 0;
     while(true)
-        count=count+1;
-        % e_vector
         prev_u=e_vector;
         prev_val=e_value;
         e_vector=A*prev_u;
         numerator=max(e_vector);
         denominator=max(prev_u);
         e_value=numerator/denominator;
-        if (abs(e_value - prev_val) <= t || count > s)
-            if (e_value - prev_val <= t)
+        if (abs(e_value - prev_val)<t || count==s)
+            if (count==s)
+                disp('Stopped at max count')
+                e_value=0;
+            end
+            if (le(abs(e_value - prev_val), t))
                 disp('Stopped at tolerance condition')
             end
-            if (count > s)
-                disp('Stopped at max count')
-            end
-            % e_vector
+            % e_vector not needed, will return values
             % e_value
             return;
+        else
+            count=count+1;
         end
     end
 end
-
-
-
