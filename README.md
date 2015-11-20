@@ -1,5 +1,8 @@
 # matlab-project
 MATH 2605 project in matlab
 
-# working: 
-- lu_fact.m
+# missing: 
+- Min Ho:
+  - files (in matlab form)
+- Matt:
+  - second half of part-3
