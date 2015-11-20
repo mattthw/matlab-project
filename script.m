@@ -11,7 +11,7 @@ A = [3 4;3 1];
 v = [1;0];
 t = 1/5;
 s = 10;
-[e_value, e_vector] = power_method(A,v,t,s)
+[e_value, e_vector, count] = power_method(A,v,t,s)
 
 
 % END OF SCRIPT
