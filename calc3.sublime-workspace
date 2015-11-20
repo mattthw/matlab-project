@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"power",
+				"power_method	(power_method.m)"
+			],
+			[
 				"has",
 				"hasNext"
 			],
@@ -435,7 +439,7 @@
 			"file": "script.m",
 			"settings":
 			{
-				"buffer_size": 132,
+				"buffer_size": 218,
 				"line_ending": "Unix"
 			}
 		},
@@ -454,6 +458,14 @@
 				"buffer_size": 1848,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "power_method.m",
+			"settings":
+			{
+				"buffer_size": 879,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -463,10 +475,22 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 375.0,
-		"last_filter": "tra",
+		"height": 400.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git co",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
 			[
 				"tra",
 				"Trailing Spaces: Delete Trailing Spaces"
@@ -608,10 +632,6 @@
 				"Git: Diff All Files"
 			],
 			[
-				"git add",
-				"Git: Add..."
-			],
-			[
 				"git",
 				"Git: Push"
 			],
@@ -728,7 +748,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 462.0
+		"width": 484.0
 	},
 	"console":
 	{
@@ -755,6 +775,8 @@
 	],
 	"file_history":
 	[
+		"/home/matt/Documents/school/class/cs1331/test2-practice-ans/4a.java",
+		"/home/matt/Documents/school/class/math2605/matlab-project/COMMIT_EDITMSG.COMMIT_EDITMSG",
 		"/home/matt/Documents/school/class/cs1331/test2-practice-ans/5b.java",
 		"/home/matt/Documents/school/class/cs1331/hw-netflix-master/src/main/java/Movie.java",
 		"/home/matt/Documents/school/class/cs1331/hw-netflix-master/src/main/java/MySet.java",
@@ -880,9 +902,7 @@
 		"/home/matt/Documents/School/Classes/data-structures/assignments/project-5/ex.txt",
 		"/home/matt/Documents/School/Classes/data-structures/assignments/project-5/Comparator.java",
 		"/home/matt/Downloads/Comparator.java",
-		"/home/matt/Documents/School/Classes/data-structures/assignments/project-3/SetAlgebra.java",
-		"/home/matt/Documents/School/Classes/data-structures/assignments/project-3/LinkedList.java",
-		"/home/matt/Documents/School/Classes/data-structures/assignments/lab4/IntSLLList.java"
+		"/home/matt/Documents/School/Classes/data-structures/assignments/project-3/SetAlgebra.java"
 	],
 	"find":
 	{
@@ -901,6 +921,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"int",
+			"u_vector",
+			"prev_vec",
 			"print",
 			"add",
 			"addA",
@@ -1025,10 +1048,7 @@
 			"i",
 			"high",
 			"low",
-			"IC",
-			"int[] x",
-			";{",
-			"abstract"
+			"IC"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -1054,7 +1074,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
@@ -1063,15 +1083,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 132,
+						"buffer_size": 218,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								132,
-								132
+								166,
+								166
 							]
 						],
 						"settings":
@@ -1132,7 +1152,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -1148,8 +1168,8 @@
 						"selection":
 						[
 							[
-								436,
-								436
+								478,
+								478
 							]
 						],
 						"settings":
@@ -1208,11 +1228,11 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": -0.0,
+						"translation.y": 108.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -1228,8 +1248,8 @@
 						"selection":
 						[
 							[
-								504,
-								504
+								398,
+								398
 							]
 						],
 						"settings":
@@ -1288,18 +1308,92 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 180.0,
+						"translation.x": -0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "power_method.m",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 879,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								833,
+								833
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "matlab",
+							"buffer_scroll_name": "05522e65",
+							"c_time":
+							[
+								128,
+								3,
+								99,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								100,
+								97,
+								116,
+								101,
+								116,
+								105,
+								109,
+								101,
+								10,
+								113,
+								0,
+								67,
+								10,
+								7,
+								223,
+								11,
+								12,
+								12,
+								3,
+								42,
+								0,
+								0,
+								0,
+								113,
+								1,
+								133,
+								113,
+								2,
+								82,
+								113,
+								3,
+								46
+							],
+							"open_with_edit": true,
+							"spell_check": false,
+							"syntax": "Packages/Matlab/Matlab.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
-			]
-		},
-		{
-			"sheets":
-			[
 			]
 		}
 	],
@@ -1320,18 +1414,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -1380,9 +1467,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "che",
+		"last_filter": "chess",
 		"selected_items":
 		[
+			[
+				"chess",
+				"~/Documents/school/class/cs1331/hw-chess-master/hw-chess.sublime-project"
+			],
 			[
 				"che",
 				"~/Documents/school/class/cs1331/hw-chess-master/chess.sublime-project"
@@ -1455,7 +1546,7 @@
 		],
 		"width": 400.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
