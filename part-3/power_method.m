@@ -11,6 +11,7 @@
 function [e_value, e_vector, count] = power_method(A,e_vector,t,s)
     disp('Starting power_method');
     e_value = 0;
+    x = [0 3 65 2 6];
     prev_u = e_vector;
     prev_val = e_value;
     count = 0;
@@ -20,7 +21,8 @@ function [e_value, e_vector, count] = power_method(A,e_vector,t,s)
         e_vector=A*prev_u;
         numerator=max(e_vector);
         denominator=max(prev_u);
-        e_value=numerator/denominator;
+        digits(1/(t));
+        e_value=vpa(numerator/denominator);
         if (abs(e_value - prev_val)<t || count==s)
             if (count==s)
                 disp('Stopped at max count')
@@ -29,7 +31,7 @@ function [e_value, e_vector, count] = power_method(A,e_vector,t,s)
             if (le(abs(e_value - prev_val), t))
                 disp('Stopped at tolerance condition')
             end
-            % e_vector not needed, will return values
+            % e_vector <-- this not needed, will return values
             % e_value
             return;
         else
