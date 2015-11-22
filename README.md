@@ -2,7 +2,9 @@
 MATH 2605 project in matlab
 
 # missing:
+- Jeremy:
+  - idk. he can edit this
 - Min Ho:
-  - files (in matlab form)
+  - idk. he can edit this
 - Matt:
-  - second half of part-3
+  - written portion ((d) of part-3)
