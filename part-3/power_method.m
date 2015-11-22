@@ -11,9 +11,8 @@
 function [e_value, e_vector, count] = power_method(A,e_vector,t,s)
     % disp('Starting power_method');
     e_value = 0;
-    x = [0 3 65 2 6];
-    prev_u = e_vector;
-    prev_val = e_value;
+    % prev_u = e_vector;
+    % prev_val = e_value;
     count = 0;
     % digits(4);
     while(true)
@@ -26,10 +25,11 @@ function [e_value, e_vector, count] = power_method(A,e_vector,t,s)
         e_value = (round((e_value*100000))/100000);
         if (abs(e_value - prev_val)<t || count==s)
             if (count==s)
-                disp('Stopped at max count')
+                debugA = abs(e_value - prev_val);
+                disp(sprintf('Max count %g reached. DETAIL: %g > %g',s,debugA,t))
                 e_value=0;
                 e_vector=[0;0];
-                count=0;
+                % count=0;
             end
             if (le(abs(e_value - prev_val), t))
                 % disp('Stopped at tolerance condition')
