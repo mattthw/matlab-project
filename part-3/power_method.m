@@ -9,7 +9,7 @@
 %      iterate the power method before quitting.
 % e_value
 function [e_value, e_vector, count] = power_method(A,e_vector,t,s)
-    disp('Starting power_method');
+    % disp('Starting power_method');
     e_value = 0;
     x = [0 3 65 2 6];
     prev_u = e_vector;
@@ -32,7 +32,7 @@ function [e_value, e_vector, count] = power_method(A,e_vector,t,s)
                 count=0;
             end
             if (le(abs(e_value - prev_val), t))
-                disp('Stopped at tolerance condition')
+                % disp('Stopped at tolerance condition')
             end
             % e_vector <-- this not needed, will return values
             % e_value
