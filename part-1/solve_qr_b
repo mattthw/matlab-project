@@ -5,27 +5,27 @@ xhouseh = zeros(n,1);
 Qt = Q';
 bt = b';
 Qtb=zeros(n,1);
-for i=1:n	
-    for j=1:n
-        Qtb(i)=Qtb(i) + Qt(i,j) * bt(j);
+for x=1:n	
+    for y=1:n
+        Qtb(x)=Qtb(x) + Qt(x,y) * bt(y);
     end
 end	
-for k=1:n-1 
-    for i=k+1:n
-        xmult = R(i,k)/R(k,k);
-        for j=k+1:n
-            R(i,j) = R(i,j)-xmult*R(k,j);
+for z=1:n-1 
+    for x=z+1:n
+        xmult = R(x,z)/R(z,z);
+        for y=z+1:n
+            R(x,y) = R(x,y)-xmult*R(z,y);
         end
-    Qtb(i) = Qtb(i)-xmult*Qtb(k);
+    Qtb(x) = Qtb(x)-xmult*Qtb(z);
     end
 end
 xhouseh(n) = Qtb(n)/R(n,n);
-for i=n-1:-1:1
-    sum = Qtb(i);
-    for j=i+1:n
-        sum = sum-R(i,j)*xhouseh(j);
+for x=n-1:-1:1
+    sum = Qtb(x);
+    for y=x+1:n
+        sum = sum-R(x,y)*xhouseh(y);
     end
-    xhouseh(i) = sum/R(i,i);
+    xhouseh(x) = sum/R(x,x);
 end
 
 [Q,R,~] = qr_fact_givens(A);
@@ -33,37 +33,42 @@ xgivens = zeros(n,1);
 Qt = Q';
 bt = b';
 Qtb=zeros(n,1);
-for i=1:n	
-    for j=1:n
-        Qtb(i)=Qtb(i) + Qt(i,j) * bt(j);
+for x=1:n	
+    for y=1:n
+        Qtb(x)=Qtb(x) + Qt(x,y) * bt(y);
     end
 end	
-for k=1:n-1 
-    for i=k+1:n
-        xmult = R(i,k)/R(k,k);
-        for j=k+1:n
-            R(i,j) = R(i,j)-xmult*R(k,j);
+for z=1:n-1 
+    for x=z+1:n
+        xmult = R(x,z)/R(z,z);
+        for y=z+1:n
+            R(x,y) = R(x,y)-xmult*R(z,y);
         end
-    Qtb(i) = Qtb(i)-xmult*Qtb(k);
+    Qtb(x) = Qtb(x)-xmult*Qtb(z);
     end
 end
 xgivens(n) = Qtb(n)/R(n,n);
-for i=n-1:-1:1
-    sum = Qtb(i);
-    for j=i+1:n
-        sum = sum-R(i,j)*xgivens(j);
+for x=n-1:-1:1
+    sum = Qtb(x);
+    for y=x+1:n
+        sum = sum-R(x,y)*xgivens(y);
     end
-    xgivens(i) = sum/R(i,i);
+    xgivens(x) = sum/R(x,x);
 end
 end
+
 
 function [Q,R,error]=qr_fact_househ(A)
 
 %A Cornell website was used to help make this function
-%as http://www.cs.cornell.edu/~bindel/class/cs6210-f09/lec18.pdf
+%at https://www.cs.berkeley.edu/~wkahan/Math128/ReflRotn.pdf
+
 n=length(A);
 R=A; 
-Q=eye(n); 
+Q=zeros(n);
+for x=1:n
+    Q(x,x)=1;
+end
 for k=1:n-1
     x=zeros(n,1);
     x(k:n,1)=R(k:n,k);
@@ -82,47 +87,55 @@ for i=1:n
 	end	
 end	
 errorMatrix = C - A;
-maxError = max(errorMatrix);
-minError = min(errorMatrix);
+maxError = max(max(errorMatrix));
+minError = min(min(errorMatrix));
 error = max(abs(maxError),abs(minError));
 end
 
+
 function [Q,R,error] = qr_fact_givens(A)
-  n = length(A);
-  Q = eye(n);
-  R = A;
-  for j = 1:n
-    for i = n:-1:(j+1)
-      G = eye(n);
-      [cos,sin] = getcosandsin( R(i-1,j),R(i,j));
-      G([i-1, i],[i-1, i]) = [cos -sin; sin cos];
-      R = G'*R;
-      Q = Q*G;
-    end
+
+%A website was used to help make this function
+%at http://polytopes.net/courses/Stat624S08/tutorial4.pdf
+
+n = length(A);
+Q = zeros(n);
+for x=1:n
+    Q(x,x)=1;
+end
+R = A;
+for y = 1:n
+  for x = n:-1:(y+1)
+    G = eye(n);
+    [cos,sin] = getcosandsin( R(x-1,y),R(x,y));
+    G([x-1, x],[x-1, x]) = [cos -sin; sin cos];
+    R = G'*R;
+    Q = Q*G;
   end
+end
 C=zeros(n);
-for i=1:n	
-	for j=1:n	
-			C(i,j)=C(i,j) + Q(i,:) * R(:,j);   
+for x=1:n	
+	for y=1:n	
+			C(x,y)=C(x,y) + Q(x,:) * R(:,y);   
 	end	
 end	
 errorMatrix = C - A;
-maxError = max(errorMatrix);
-minError = min(errorMatrix);
+maxError = max(max(errorMatrix));
+minError = min(min(errorMatrix));
 error = max(abs(maxError),abs(minError));
 end
 
-function [cos,sin] = getcosandsin(a,b)
-  if b == 0
+function [cos,sin] = getcosandsin(n1,n2)
+  if n2 == 0
     cos = 1;
     sin = 0;
   else
-    if abs(b) > abs(a)
-      r = a / b;
+    if abs(n2) > abs(n1)
+      r = n1 / n2;
       sin = 1 / sqrt(1 + r^2);
       cos = sin*r;
     else
-      r = b / a;
+      r = n2 / n1;
       cos = 1 / sqrt(1 + r^2);
       sin = cos*r;
     end
