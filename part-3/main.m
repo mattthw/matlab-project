@@ -1,6 +1,6 @@
 %script for second half of part 3
 [A] = generate_matrices();
-data = zeros(30,4); %1=determ,2=tracem,3=colorm(count)
+data = zeros(1000,4); %1=determ,2=tracem,3=colorm(count)
 for n=1:1000;
     disp(sprintf('gathering matrix "A" data %g of 1000', n));
     [e_value, e_vector, count] = power_method(A(:,:,n),[1;0],0.00005,100);
@@ -17,7 +17,7 @@ countOfA=data(:,3);
 eigenvalue=data(:,4);
 % get data for inverse of A
 [A_inverse] = inverse(A);
-data_inverse = zeros(30,4); %1=determ,2=tracem,3=colorm(count)
+data_inverse = zeros(1000,4); %1=determ,2=tracem,3=colorm(count),4=eigenvalue
 for n=1:1000;
     disp(sprintf('gathering matrix "A^-1" data_inverse %g of 1000', n));
     [e_value, e_vector, count] = power_method(A_inverse(:,:,n),[1;0],0.00005,100);

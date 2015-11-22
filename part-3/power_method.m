@@ -20,7 +20,7 @@ function [e_value, e_vector, count] = power_method(A,e_vector,t,s)
         prev_val=e_value;
         e_vector=A*prev_u;
         numerator=max(e_vector);
-        denominator=max(prev_u);
+        denominator=abs(max(prev_u));
         e_value=numerator/denominator;
         e_value = (round((e_value*100000))/100000);
         if (abs(e_value - prev_val)<t || count==s)

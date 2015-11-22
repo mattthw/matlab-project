@@ -6,3 +6,9 @@ function [matrices] = generate_matrices()
         matrices(:, :, n) = rand(2, 2);
     end
 end
+
+% Generate single matrix if A^-1 DNE
+% not needed. numbers generated are extremely unlikely to cause det=0
+function [m] = generate_single(m)
+    % things
+end
