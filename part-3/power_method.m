@@ -15,18 +15,21 @@ function [e_value, e_vector, count] = power_method(A,e_vector,t,s)
     prev_u = e_vector;
     prev_val = e_value;
     count = 0;
+    % digits(4);
     while(true)
         prev_u=e_vector;
         prev_val=e_value;
         e_vector=A*prev_u;
         numerator=max(e_vector);
         denominator=max(prev_u);
-        digits(1/(t));
-        e_value=vpa(numerator/denominator);
+        e_value=numerator/denominator;
+        e_value = (round((e_value*100000))/100000);
         if (abs(e_value - prev_val)<t || count==s)
             if (count==s)
                 disp('Stopped at max count')
                 e_value=0;
+                e_vector=[0;0];
+                count=0;
             end
             if (le(abs(e_value - prev_val), t))
                 disp('Stopped at tolerance condition')
