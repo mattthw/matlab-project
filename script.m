@@ -12,7 +12,8 @@ v = [1;0];
 t = 1/5;
 s = 10;
 [e_value, e_vector, count] = power_method(A,v,t,s)
-
+[matrices] = generate_matrices()
+subMatrix = matrices(:,:,3);
 
 % END OF SCRIPT
 cd('../');
