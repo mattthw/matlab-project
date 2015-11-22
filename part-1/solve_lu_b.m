@@ -51,41 +51,42 @@ function[L,U,error] = lu_fact(A)
 n=size(A);
 U=zeros(n);
 L=zeros(n);
-for j=1:n
-    L(j,j)=1;
+for x=1:n
+    L(x,x)=1;
 end
-for j=1:n
-    U(1,j)=A(1,j);
+for x=1:n
+    U(1,x)=A(1,x);
 end
-for i=2:n
-    for j=1:n
-        for k=1:i-1
-            s1=0;
-            if k==1
-                s1=0;
-            else
-            for p=1:k-1
-                s1=s1+L(i,p)*U(p,k);
-            end
-            end
-            L(i,k)=(A(i,k)-s1)/U(k,k);
-         end
-         for k=i:n
-             s2=0;
-           for p=1:i-1
-               s2=s2+L(i,p)*U(p,k);
-           end
-           U(i,k)=A(i,k)-s2;
-         end
+for y=2:n
+  for x=1:n
+    for z=1:y-1
+        v1=0;
+        if z==1
+            v1=0;
+        else
+        for p=1:z-1
+            v1=v1+L(y,p)*U(p,z);
+        end
+        end
+        L(y,z)=(A(y,z)-v1)/U(z,z);
     end
+     for z=y:n
+         v2=0;
+       for p=1:y-1
+           v2=v2+L(y,p)*U(p,z);
+       end
+       U(y,z)=A(y,z)-v2;
+     end
+  end
 end
 C=zeros(n);
-for i=1:n	
-	for j=1:n	
-			C(i,j)=C(i,j) + L(i,:) * U(:,j);   
+for y=1:n	
+	for x=1:n	
+			C(y,x)=C(y,x) + L(y,:) * U(:,x);   
 	end	
 end	
 errorMatrix = C - A;
-maxError = max(errorMatrix);
-minError = min(errorMatrix);
+maxError = max(max(errorMatrix));
+minError = min(min(errorMatrix));
 error = max(abs(maxError),abs(minError));
+
