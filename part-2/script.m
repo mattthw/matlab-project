@@ -22,6 +22,10 @@ disp('Error of approximation for Jacobi =');
 xerror = abs(norm(xapx - xext));
 disp(xerror)
 jacobi_N = jacobi_N / 100
+
+
+
+%For Gauss-Siedel
 yapx = [0;0;0];
 yext = [9/190;28/475;33/475];
 gs_N = 0;
@@ -41,5 +45,7 @@ yerror = abs(norm(yapx - yext));
 disp(yerror)
 gs_N = gs_N / 100
 
+
+%Ratio
 Ratio = jacobi_N / gs_N
 cd('../');
