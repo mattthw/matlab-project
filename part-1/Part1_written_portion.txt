@@ -1,29 +1,73 @@
-(d)
-n=2:  x = [3/2,-½], LU error = 0, House error =1.66e-15, givens error=4.44e-16, Px-b error=0
+(1d)
+n=2:  x = [3/2,-.5]
+      LU error = 0
+      House error =1.66e-15
+      givens error=4.44e-16
+      Px-b error=0
 
-n=3:  x = [11/6,-7/6,⅓], LU error = 0; House error = 2.66e-15, givens error = 1.77e-15, Px-b error = 5.55e-17
+n=3:  x = [1.833,-1.167,.333]
+      LU error = 0 
+      House error = 2.66e-15
+      givens error = 1.77e-15
+      Px-b error = 5.55e-17
 
-n=4: x = [2.083,-1.192,1.083,-.25], LU error=0, House error=1.77e-14,givens error=5.33e-15, Px-b error = 1.77e-15
+n=4:  x = [2.083,-1.192,1.083,-.25]
+      LU error=0
+      House error=1.77e-14
+      givens error=5.33e-15
+      Px-b error = 1.77e-15
 
-n=5: x=[2.283,-2.7167,2.283,-1.05,0.2], LU error = 0; House error = 2.697e-14, givens error=1.421e-14, Px-b error = 2.67e-15
+n=5:  x=[2.283,-2.7167,2.283,-1.05,0.2],
+      LU error = 0
+      House error = 2.697e-14
+      givens error=1.421e-14
+      Px-b error = 2.67e-15
 
-n=6: x=[2.45,-3.55,3.95,-2.717,1.033,-0.167], LU error = 0, House error = 8.527e-14, givens error = 2.84e-14, Px-b error = 1.349e-14
+n=6:  x=[2.45,-3.55,3.95,-2.717,1.033,-0.167]
+      LU error = 0
+      House error = 8.527e-14
+      givens error = 2.84e-14
+      Px-b error = 1.349e-14
 
-n=7: x=[2.592,-4.407,6.093,-5.574,3.176,-1.024,0.143], LU error = 0, house error=7.425e-13, givens error=2.025e-13, Px-b error = 1.776e-14
+n=7:  x=[2.592,-4.407,6.093,-5.574,3.176,-1.024,0.143]
+      LU error = 0
+      house error=7.425e-13
+      givens error=2.025e-13
+      Px-b error = 1.776e-14
 
-n=8: x=[2.718,-5.282,8.718,-9.949,7.551,-3.649,1.018,-0.125], LU error=0, house error = 9.094e-13, givens error = 1.137e-12, Px-b error= 2.274e-13
+n=8:  x=[2.718,-5.282,8.718,-9.949,7.551,-3.649,1.018,-0.125]
+      LU error=0
+      house error = 9.094e-13
+      givens error = 1.137e-12
+      Px-b error= 2.274e-13
 
-n=9: x=[2.829,-6.171,11.829,-16.171,15.329,-9.871,4.129,-1.014,0.111], LU error = 0, house error = 3.496e-12, givens error = 4.548e-12, Px-b error = 2.021e-13
+n=9:  x=[2.829,-6.171,11.829,-16.171,15.329,-9.871,4.129,-1.014,0.111]
+      LU error = 0
+      house error = 3.496e-12
+      givens error = 4.548e-12
+      Px-b error = 2.021e-13
 
-n=10: x=[2.929,-7.071,15.429,-24.571,27.929,-22.471,12.529,-4.614,1.011,-0.1], LU error = 0, house error = 2.273e-11, givens error = 2.183e-11, Px-b error = 9.459e-12
+n=10: x=[2.929,-7.071,15.429,-24.571,27.929,-22.471,12.529,-4.614,1.011,-0.1]
+      LU error = 0
+      house error = 2.273e-11
+      givens error = 2.183e-11
+      Px-b error = 9.459e-12
 
-n=11, x=[3.020,-7.98,19.519,-35.48,47.019,-45.38,31.619,-15.523,5.102,-1.009,0.091], LU error = 0, house error = 6.666e-11, givens error = 3.274e-11, Px-b error = 2.811e-11
+n=11: x=[3.020,-7.98,19.519,-35.48,47.019,-45.38,31.619,-15.523,5.102,-1.009,0.091]
+      LU error = 0
+      house error = 6.666e-11 
+      givens error = 3.274e-11
+      Px-b error = 2.811e-11
 
-n=12, x=[3.103,-8.897,24.103,-49.23,74.519,-83.88,70.119,-43.023,18.852,-5.592,1.007,-0.083], LU error = 0, house error=6.403e-10, givens error = 2.256e-10, Px-b error = 9.216e-11
+n=12: x=[3.103,-8.897,24.103,-49.23,74.519,-83.88,70.119,-43.023,18.852,-5.592,1.007,-0.083]
+      LU error = 0
+      house error=6.403e-10
+      givens error = 2.256e-10
+      Px-b error = 9.216e-11
 
 
 
-(f) Answer the following questions in the associated written component for this part of
+(1f) Answer the following questions in the associated written component for this part of
 the project:
 
 (i) Why is it justified to use the LU or QR−factorizations as opposed of calculating
