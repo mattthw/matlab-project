@@ -9,6 +9,8 @@ function [m_inverse] = inverse(matrices)
         newb=-matrices(1,2,n)*den;
         newc=-matrices(2,1,n)*den;
         newd=matrices(1,1,n)*den;
-        m_inverse(:,:,n)=[newa, newb; newc, newd];
+        % disp('comparing inverses');
+        % m_inverse(:,:,n)=[newa, newb; newc, newd]
+        m_inverse(:,:,n)=inv(matrices(:,:,n));
     end
 end

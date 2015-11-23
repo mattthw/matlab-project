@@ -23,19 +23,28 @@ function [e_value, e_vector, count] = power_method(A,e_vector,t,s)
         denominator=abs(max(prev_u));
         e_value=numerator/denominator;
         e_value = (round((e_value*100000))/100000);
-        if (abs(e_value - prev_val)<t || count==s)
+        if ((abs(e_value - prev_val)<t && count > 1) || count==s)
             if (count==s)
-                debugA = abs(e_value - prev_val);
-                disp(sprintf('Max count %g reached. DETAIL: %g > %g',s,debugA,t))
+                % debugA = (e_value - prev_val);
+                % disp(sprintf('Max count %g reached. DETAIL: %g > %g',s,debugA,t));
                 e_value=0;
                 e_vector=[0;0];
-                % count=0;
+                count=101;
+                if (det(A) < 0)
+                    A
+                    det(A)
+                    trace(A)
+                    count
+                end
             end
-            if (le(abs(e_value - prev_val), t))
+            if (abs(e_value - prev_val) < t || abs(e_value - prev_val) == t)
                 % disp('Stopped at tolerance condition')
+                e_value
+                prev_val
+                diffr = e_value - prev_val
+                t
             end
             % e_vector <-- this not needed, will return values
-            % e_value
             return;
         else
             count=count+1;
