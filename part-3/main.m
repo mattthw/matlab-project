@@ -11,7 +11,7 @@ for n=1:1000;
     data(n,2)=tracem;
     data(n,3)=e_value;
     data(n,4)=count;
-    [e_value, e_vector, count] = power_method(A(:,:,n),[1;0],0.00005,100);
+    [e_value, e_vector, count] = power_method(A_inverse(:,:,n),[1;0],0.00005,100);
     data(n,5)=count;
 end
 determinantOfA=data(:,1);
@@ -25,5 +25,5 @@ T = table(determinantOfA,traceOfA,eigenvalue,countOfA,countOfA_inverse);
 filename='results.csv';
 writetable(T,filename);
 disp('drawing scatter plot for A and A^-1...');
-scatter(determinantOfA,traceOfA,[],countOfA)
-scatter(determinantOfA,traceOfA,[],countOfA_inverse)
+createfigure(determinantOfA,traceOfA,[],countOfA)
+createfigure2(determinantOfA,traceOfA,[],countOfA_inverse)

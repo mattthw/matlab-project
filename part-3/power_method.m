@@ -27,22 +27,23 @@ function [e_value, e_vector, count] = power_method(A,e_vector,t,s)
             if (count==s)
                 % debugA = (e_value - prev_val);
                 % disp(sprintf('Max count %g reached. DETAIL: %g > %g',s,debugA,t));
-                e_value=0;
                 e_vector=[0;0];
                 count=101;
                 if (det(A) < 0)
                     A
-                    det(A)
-                    trace(A)
-                    count
+                    determin=det(A)
+                    traceA=trace(A)
+                    c=count
+                    e_value
                 end
+                e_value=0;
             end
-            if (abs(e_value - prev_val) < t || abs(e_value - prev_val) == t)
+            if (le(abs(e_value - prev_val),t))
                 % disp('Stopped at tolerance condition')
-                e_value
-                prev_val
-                diffr = e_value - prev_val
-                t
+                % e_value
+                % prev_val
+                % diffr = e_value - prev_val
+                % t
             end
             % e_vector <-- this not needed, will return values
             return;
