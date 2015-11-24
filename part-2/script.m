@@ -45,7 +45,7 @@ disp(yapx);
 disp('Gauss-Siedel x exact =');
 disp(yext);
 disp('Error of approximation for Gauss-Siedel =');
-yerror = abs(norm(yapx - yext));
+yerror = norm(yapx - yext);
 disp(yerror)
 gs_N = gs_N / 100
 
