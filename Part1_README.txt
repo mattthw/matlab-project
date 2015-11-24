@@ -26,7 +26,8 @@ that b will be entered in its transpose form. Ex: Enter b as b=[1,1/2,1/3,1/4] a
      recorded the resulting x, error from LU decomposition, error from householder reflections, error for givens
      rotations, and the error from Px-b. I have attached this portion to the written section for part 1.
      
-1(e)I plotted the errors as a line graph and attached the chart with the errors for each function.
+1(e)I plotted the errors as a line graph and attached the chart with the errors for each function as a pdf called
+    part1errors.
 
 1(f)The written portion for part 1 contains both part 1d and 1f.
 
