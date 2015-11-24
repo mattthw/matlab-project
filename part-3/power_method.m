@@ -19,8 +19,8 @@ function [e_value, e_vector, count] = power_method(A,e_vector,t,s)
         prev_u=e_vector;
         prev_val=e_value;
         e_vector=A*prev_u;
-        numerator=max(e_vector);
-        denominator=abs(max(prev_u));
+        numerator=abs([1 0]*e_vector);
+        denominator=abs([1 0]*prev_u);
         e_value=numerator/denominator;
         e_value = (round((e_value*100000))/100000);
         if ((abs(e_value - prev_val)<t && count > 1) || count==s)
