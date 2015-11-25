@@ -11,19 +11,26 @@ for n=1:1000;
     data(n,2)=tracem;
     data(n,3)=e_value;
     data(n,4)=count;
-    [e_value, e_vector, count] = power_method(A_inverse(:,:,n),[1;0],0.00005,100);
-    data(n,5)=count;
+    [e_value, e_vector, count2] = power_method(A_inverse(:,:,n),[1;0],0.00005,100);
+    data(n,7)=count2;
+    % eterm=(A_inverse(1,1,n)*A_inverse(2,2,n)-A_inverse(1,2,n)*A_inverse(2,1,n));
+    % tracem=(A_inverse(1,1,n)+A_inverse(2,2,n));
+    % data(n,5)=determ;
+    % data(n,6)=tracem;
 end
 determinantOfA=data(:,1);
 traceOfA=data(:,2);
 eigenvalue=data(:,3);
 countOfA=data(:,4);
-countOfA_inverse=data(:,5);
+% detAinv=data(:,5);
+% traceAinv=data(:,6);
+countAinv=data(:,7);
 
-% create table and scatter plots
-T = table(determinantOfA,traceOfA,eigenvalue,countOfA,countOfA_inverse);
-filename='results.csv';
-writetable(T,filename);
+% % create table and scatter plots
+% disp('writing results to results.txt');
+% T = table(determinantOfA,traceOfA,eigenvalue,countOfA,detAinv,traceAinv,countAinv);
+% filename='results.csv';
+% writetable(T,filename);
 disp('drawing scatter plot for A and A^-1...');
 createfigure(determinantOfA,traceOfA,[],countOfA)
-createfigure2(determinantOfA,traceOfA,[],countOfA_inverse)
+createfigure2(determinantOfA,traceOfA,[],countAinv)
