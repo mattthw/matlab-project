@@ -2,7 +2,7 @@ author: Matthew Thomas McCoy
         EMAIL: mmccoy37@gatech.edu
         GTID#: 903178186
         PHONE: 678-822-8901
-date: 26 Nov 2015
+date: 24 Nov 2015
 README.txt
 
 How to Run Part A:
