@@ -16,9 +16,9 @@ function [e_value, e_vector, count] = power_method(A,e_vector,t,s)
     while(true)
         prev_u=e_vector;
         prev_val=e_value;
-        e_vector=A*prev_u;
-        numerator=abs(w*e_vector);
-        denominator=abs(w*prev_u);
+        e_vector=mult(A,prev_u);
+        numerator=abs(mult(w,e_vector));
+        denominator=abs(mult(w,prev_u));
         e_value=numerator/denominator;
         e_value = (round((e_value*100000))/100000);
         if ((abs(e_value - prev_val)<t && count > 1) || count==s)
@@ -35,4 +35,24 @@ function [e_value, e_vector, count] = power_method(A,e_vector,t,s)
             count=count+1;
         end
     end
+end
+
+% matrix multiplication
+function res = mult(A,B)
+    % get dimmensions
+    row_a=size(A,1);
+    col_a=size(A,2);
+    row_b=size(B,1);
+    col_b=size(B,2);
+    % create new matrix from old two
+    if (col_a==row_b)
+        res=zeros(row_a,col_b);
+        for i=1:row_a
+            for j=1:col_b
+                res(i,j)=res(i,j)+A(i,:)*B(:,j);
+            end
+        end
+    end
+    % res is returned
+    % disp(sprintf('DEBUG A:%g B:%g res:%g',A,B,res));
 end
