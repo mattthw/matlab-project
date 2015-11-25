@@ -51,6 +51,7 @@ gs_N = gs_N / 100
 Ratio = jacobi_N / gs_N;
 disp('The ratio of Jacobi_N / Gs_N =')
 disp(Ratio)
+%Graph
 createfigure(gs_arr(:,1), gs_arr(:,2), [], 'blue', jacobi_arr(:,1), jacobi_arr(:,2), 'black')
-
+disp('Drawing Plots..')
 cd('../');
