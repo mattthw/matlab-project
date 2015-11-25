@@ -2,7 +2,7 @@ author: Matthew Thomas McCoy
         EMAIL: mmccoy37@gatech.edu
         GTID#: 903178186
         PHONE: 678-822-8901
-date: 26 Nov 2015
+date: 24 Nov 2015
 README.txt
 
 How to Run Part A:
@@ -34,7 +34,7 @@ Explanation of Files in Directory:
 -"RUNA.m" script: for part A
 -"RUNB.m" script: for part b/c
 -"power_method.m" function: power method for a matrix
--"inverse." function: inverse a matrix
+-"inverse.m" function: inverse a matrix
 -"generate_matrices.m" function: create 1000 random matrices
     over the interval [-2, 2]
 -"createfigure(2).m" functions: build scatter plot for data
