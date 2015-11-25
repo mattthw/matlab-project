@@ -16,11 +16,11 @@ for j = 1 : M
     jacobi_arr(j, 2) = N;
     jacobi_N = jacobi_N + N;
 end
+disp('Xexact')
+disp(xext);
 xapx = xapx ./ M;
 disp('Jacobi x approximation =');
 disp(xapx);
-disp('Jacobi x exact =');
-disp(xext);
 disp('Error of approximation for Jacobi =');
 xerror = abs(norm(xapx - xext));
 disp(xerror)
@@ -42,16 +42,15 @@ end
 yapx = yapx ./ M;
 disp('Gauss-Siedel x approximation =');
 disp(yapx);
-disp('Gauss-Siedel x exact =');
-disp(yext);
 disp('Error of approximation for Gauss-Siedel =');
 yerror = norm(yapx - yext);
 disp(yerror)
 gs_N = gs_N / 100
 
 %Ratio
-Ratio = jacobi_N / gs_N
-
+Ratio = jacobi_N / gs_N;
+disp('The ratio of Jacobi_N / Gs_N =')
+disp(Ratio)
 createfigure(gs_arr(:,1), gs_arr(:,2), [], 'blue', jacobi_arr(:,1), jacobi_arr(:,2), 'black')
 
 cd('../');
