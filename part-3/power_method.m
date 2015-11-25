@@ -49,7 +49,7 @@ function res = mult(A,B)
         res=zeros(row_a,col_b);
         for i=1:row_a
             for j=1:col_b
-                res(i,j)=res(i,j)+A(i,:)*B(:,j);
+                res(i,j)=res(i,j)+(A(i,:)*B(:,j));
             end
         end
     end
